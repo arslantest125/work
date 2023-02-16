@@ -1,0 +1,708 @@
+/*Baroque CSS file*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+.topbar{
+	background-color: green; 
+	padding: 4px;
+	height: 35px;
+}
+.topbar-text{
+	font-size: 12px;
+	font-weight: 750; 
+	color: white;
+	margin-left: 80px;
+	margin-top: 5px;
+	float: left;"
+}
+.contacts{
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	text-decoration: none;
+	margin-right: 12%;
+}
+.t1{
+	padding: 5px 10px;
+}
+
+.logo-image{
+	margin-left: 140px;
+}
+
+.navbar{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #6C757D;
+}
+.menu{
+	position: relative;
+	right: 80px;
+	list-style-type: none;
+	padding: 0px 10px;
+	font-family: 15px;
+
+}
+
+.menu-text{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	padding: 5px 10px;
+
+}
+
+.menu-text:hover{
+	background-color: green;
+	border-radius: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+.top-icons{
+	list-style-type: none;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+.search-icon{
+	padding: 0px 10px;
+}
+
+.currency-icon{
+	padding: 0px 10px;
+	
+}
+
+.currency-text{
+	border-style: none;
+	font-size: 12px;
+}
+.account-icon{
+	padding: 0px 10px;
+}
+
+.bucket-icon{
+	padding: 0px 10px;
+}
+.banner{
+	height: 600px;
+	margin-left: 50px;
+	width: 92%;
+	background-image: url(images/banner-1.jpg);
+	background-size: cover;
+}
+
+.product-text{
+	margin-top: 30px;
+	text-align: center;
+	size: 10px;
+	font-weight: lighter;
+
+}
+.shop-button{
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration: underline;
+	padding: 2px;
+	text-align: center;
+	color: black;
+}
+
+.servises-icons{
+	 width: 100%;
+	  overflow: hidden;
+	   background-color: #ECECEC;" 
+}
+.col-sm{
+	align-items: center;
+	text-align: center;
+	
+}
+
+.icon-data{
+	border-right: 1px black solid;
+	padding: 0px 30px;
+}
+
+.icon-text-head{
+	font-weight: 800;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+
+.footer-text-para{
+	font-size: 12px;
+	color: gray;
+}
+
+.footer-data{
+	padding: 0px 10px;
+}
+
+.footer-text-head{
+	font-size: 14px;
+	text-align: left;
+
+}
+
+.footer-text-para{
+	font-size: 12px;
+	color: gray;
+	text-align: left;
+}
+
+.footer-head{
+	font-size: 14px;
+}
+
+.subscribe-btn{
+	font-size: 12px;
+	margin-right: 120px;
+}
+
+.row-footer{
+	margin-left: 20px;
+}
+
+.footer{
+	text-align: center;
+	font-size: 12px;
+	color: gray;
+}
+
+@media only screen and (max-width: 800px) {
+  .topbar  {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .topbar-text{
+  	margin-left: 2px;
+  	font-size: 11px;
+  }
+
+  .contacts{
+  	overflow:hidden;
+  	position: relative;
+  	left: 60px;
+  	top: -27px;
+  }
+
+  .logo-image{
+  	margin-left: 160px;
+
+  }
+
+  .menu{
+  	overflow: hidden;
+  	position: relative;
+  	left: 10px;
+
+  	padding: 10px 0px;
+  	margin: 0px -3px;
+  }
+
+  .menu-text{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	padding: 5px 10px;
+
+}
+
+ .icon{
+ 	overflow: hidden;
+ 	padding: 0px;
+ 	margin: 10px;
+ }
+
+ .search-icon{
+ 	overflow: hidden;
+	padding: 0px 10px;
+	
+}
+
+.currency-icon{
+	padding: 0px 10px;
+	
+}
+
+.account-icon{
+	padding: 0px 10px;
+	}
+
+.bucket-icon{
+	overflow: ;
+	padding: 0px 10px;
+	
+}
+
+.top-icons{
+	overflow: hidden;
+	margin-left: 220px;
+}
+
+.banner{
+	height: 200px;
+	margin: 0px 20px;
+	overflow: hidden;
+}
+
+.servises-icons{
+	overflow: hidden;
+	border-style: none;
+	
+}
+
+.icon-data{
+	border: 0px solid black;
+}
+}
+
+
+@media only screen and (max-width: 900px) {
+  .topbar  {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .topbar-text{
+  	margin-left: 2px;
+  	font-size: 11px;
+  }
+
+  .contacts{
+  	
+  	
+  }
+
+  .logo-image{
+  	margin-left: 160px;
+  }
+
+  .menu{
+  	overflow: hidden;
+  	position: relative;
+  	left: 10px;
+
+  	padding: 10px 0px;
+  	margin: 0px -3px;
+  }
+
+  .menu-text{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	padding: 5px 10px;
+
+}
+
+ .icon{
+ 	overflow: hidden;
+ 	padding: 0px;
+ 	margin: 10px;
+ }
+
+ .search-icon{
+ 	overflow: hidden;
+	padding: 0px 10px;
+	
+}
+
+.currency-icon{
+	padding: 0px 10px;
+	
+}
+
+.account-icon{
+	padding: 0px 10px;
+	}
+
+.bucket-icon{
+	overflow: ;
+	padding: 0px 10px;
+	
+}
+
+.top-icons{
+	overflow: hidden;
+	margin-left: 220px;
+}
+
+.banner{
+	height: 200px;
+	margin: 0px 20px;
+	overflow: hidden;
+}
+
+.servises-icons{
+	overflow: hidden;
+	border-style: none;
+	
+}
+
+.icon-data{
+	border: 0px solid black;
+}
+}
+
+
+/*Unstitched page data*/
+
+.breadcrumb{
+	background-color: white;
+	font-size: 14px;
+	border-bottom: 1px solid #6C757D;
+	border-radius: unset;
+}
+
+.card-body{
+	font-size: 12px;
+
+}
+
+.card-body:hover{
+	text-decoration: none;
+	background-color: black;
+}
+.button-1{
+	background-color: white;
+	border-bottom: 2px solid gray;
+}
+
+.head-style{
+	font-size:14px; 
+	color:black;
+	padding: 0px 15px;
+	text-decoration: none;
+}
+
+@media only screen and(max-width: 800px)
+{
+	.accordion{
+		
+	}
+}
+
+.product-image-1{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-1:hover{
+	content: url(images/2_36_600x_crop_center.jpg);
+}
+
+.product-image-2{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-2:hover{
+	content: url(images/4_49_600x_crop_center.jpg);
+}
+.product-image-3{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-3:hover{
+	content: url(images/w3_3_600x_crop_center.jpg);
+}
+
+.product-image-4{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-4:hover{
+	content: url(images/gdx_600x_crop_center.jpg);
+}
+
+.product-image-5{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-5:hover{
+	content: url(images/2_52_600x_crop_center.jpg);
+}
+.product-image-6{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-6:hover{
+	content: url(images/1O9A7950_2_600x_crop_center.jpg);
+}
+
+.product-image-7{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-7:hover{
+	content: url(images/3_26_600x_crop_center.jpg);
+}
+
+.product-image-8{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-8:hover{
+	content: url(images/3_7_600x_crop_center.jpg);
+}
+.product-image-9{
+	width: 100%;
+	height: 400px
+}
+
+.product-image-9:hover{
+	content: url(images/25_5699ca6d-b605-47c9-9987-235c718f0731_600x_crop_center.jpg);
+}
+
+.product-heading{
+	text-align: center;
+	font-size: 14px;
+}
+
+.regular-price{
+	text-align: center;
+	font-size: 14px;
+	text-decoration: line-through;
+	color: gray;
+	font-weight: 750;
+}
+
+.sale-price{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.btn-support{
+	border-radius: 50px;
+	color: white;
+	padding: 10px 20px;
+	font-weight: 700;
+	background-color: black;
+	position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+  border-style: none;
+}
+
+/*Shop Page Start*/
+
+.columns-shop{
+	display: flex;
+	
+		flex: wrap;
+		width: 100%;
+}
+
+.images-list{
+	list-style-type: none;
+	margin-left:140px;
+	width: 37%;
+	border: 2px solid gray;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.shop-table{
+	border: 5px double lightgray;
+	height: 600px;
+}
+
+.shop-form{
+	margin: 40px;
+}
+.input-text{
+	border-style: none;
+	color: gray;
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+
+.stitched-button{
+	background-color: black;
+	border-style: none;
+	float: right;
+	position: relative;
+	top: -40px;
+	color: white;
+	font-size: 12px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.input-data{
+	position: relative;
+	top: -34px;
+}
+
+.btn-add-to-cart{
+	width: 100%;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	border-style: none;
+	margin-top: -40px;
+
+}
+
+.image-add-to-cart{
+	float: left;
+	margin-left: 20px ;
+}
+
+.shop-list{
+	list-style-type: none;
+}
+
+.discription-shop{
+	font-size: 12px;
+	border-style: none;
+	border-bottom: 1px solid gray;
+	padding: 20px;
+	width: 355px;
+}
+
+.CUSTOMER-REVIEWS{
+	margin: 30px;
+	height: 100px;
+	width: 80%;
+	border: 2px solid gray;
+}
+
+.CUSTOMER-REVIEWS-HEAD{
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.CUSTOMER-REVIEWS-DATA-RIGHT{
+	font-size: 11px;
+	margin-top: -20px;
+	padding: 10px;
+}
+
+.CUSTOMER-REVIEWS-DATA-LEFT{
+	font-size: 11px;
+	margin-top: -20px;
+	padding: 10px;
+}
+
+
+/*Shop page End*/
+
+
+/*Carts Page Start*/
+
+.cart-list-1{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	text-align: center;
+	margin-left: 15%;
+}
+
+.cart-list-2{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	text-align: center;
+	margin-left: 15%;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	margin-left: 20px;
+}
+
+.cart-list-head{
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 13px;
+	color: gray;
+
+}
+
+.cart-list-head-X{
+	font-size:14px;
+	margin-top: 55px; 
+	font-weight: 800;
+	color: gray;
+}
+
+.cart-list-head-X:hover{
+	color: black;
+}
+
+.cart-list-head-text{
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 13px;
+	color: gray;
+	margin-left: -10px;
+	margin-top: 50px;
+}
+
+.cart-list-head-table{
+	margin-top: 50px;
+	margin-bottom: 70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.td-1{
+	border: 1px solid black;
+	padding: 5px 12px;
+}
+
+.btn-shop{
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border-style: none;
+	text-align: center;
+	font-size: 14px;
+}
+
+.Price-lists{
+	width: 140%;
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	font-size: 12px;
+
+}
+
+.list-1{
+	float: left;
+	padding: 0px 40px 0px 0px ;
+}
+
+.list-2{
+}
+
+.checkout-button{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border-style: none;
+	text-align: center;
+	font-size: 14px;
+	width: 140%;
+}
